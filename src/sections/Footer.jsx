@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center text-gray-100 mt-8">
-          &copy; {new Date().getFullYear()} EzTech PrinterSolutions. All rights
+          &copy; {new Date().getFullYear()} Ez Tech Printer Solutions. All rights
           reserved.
         </div>
       </div>

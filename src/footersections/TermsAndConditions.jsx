@@ -35,10 +35,10 @@ export default TermsAndConditions;
 
 const termsAndConditionsContent = [
   {
-    sectionTitle: 'Welcome to EzTech PrinterSolutions!',
+    sectionTitle: 'Welcome to Ez Tech Printer Solutions!',
     content: [
-      'These terms and conditions outline the rules and regulations for the use of EzTech PrinterSolutions’ Website, located at https://eztechprintersolutions.com/.',
-      'By accessing this website we assume you accept these terms and conditions. Do not continue to use EzTech PrinterSolutions if you do not agree to take all of the terms and conditions stated on this page.',
+      'These terms and conditions outline the rules and regulations for the use of Ez Tech Printer Solutions’ Website, located at https://eztechprintersolutions.com/.',
+      'By accessing this website we assume you accept these terms and conditions. Do not continue to use Ez Tech Printer Solutions if you do not agree to take all of the terms and conditions stated on this page.',
     ],
   },
   {
@@ -50,33 +50,33 @@ const termsAndConditionsContent = [
   {
     sectionTitle: 'Cookies',
     content: [
-      'We employ the use of cookies. By accessing EzTech PrinterSolutions, you agreed to use cookies in agreement with the EzTech PrinterSolutions’s Privacy Policy.',
+      'We employ the use of cookies. By accessing Ez Tech Printer Solutions, you agreed to use cookies in agreement with the Ez Tech Printer Solutions’s Privacy Policy.',
       'Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.',
     ],
   },
   {
     sectionTitle: 'License',
     content: [
-      'Unless otherwise stated, EzTech PrinterSolutions and/or its licensors own the intellectual property rights for all material on EzTech PrinterSolutions. All intellectual property rights are reserved. You may access this from EzTech PrinterSolutions for your own personal use subjected to restrictions set in these terms and conditions.',
+      'Unless otherwise stated, Ez Tech Printer Solutions and/or its licensors own the intellectual property rights for all material on Ez Tech Printer Solutions. All intellectual property rights are reserved. You may access this from Ez Tech Printer Solutions for your own personal use subjected to restrictions set in these terms and conditions.',
       'You must not:',
-      'Republish material from EzTech PrinterSolutions',
-      'Sell, rent or sub-license material from EzTech PrinterSolutions',
-      'Reproduce, duplicate or copy material from EzTech PrinterSolutions',
-      'Redistribute content from EzTech PrinterSolutions',
+      'Republish material from Ez Tech Printer Solutions',
+      'Sell, rent or sub-license material from Ez Tech Printer Solutions',
+      'Reproduce, duplicate or copy material from Ez Tech Printer Solutions',
+      'Redistribute content from Ez Tech Printer Solutions',
       'This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the Free Terms and Conditions Generator.',
     ],
   },
   {
     sectionTitle: 'Comments',
     content: [
-      'Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. EzTech PrinterSolutions does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of EzTech PrinterSolutions, its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, EzTech PrinterSolutions shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.',
-      'EzTech PrinterSolutions reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.',
+      'Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Ez Tech Printer Solutions does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Ez Tech Printer Solutions, its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Ez Tech Printer Solutions shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.',
+      'Ez Tech Printer Solutions reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.',
       'You warrant and represent that:',
       'You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;',
       'The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;',
       'The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy',
       'The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.',
-      'You hereby grant EzTech PrinterSolutions a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.',
+      'You hereby grant Ez Tech Printer Solutions a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.',
     ],
   },
   {
@@ -105,14 +105,14 @@ const termsAndConditionsContent = [
           'internet portals;',
           'accounting, law and consulting firms; and',
           'educational institutions and trade associations.',
-          'We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of EzTech PrinterSolutions; and (d) the link is in the context of general resource information.',
+          'We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Ez Tech Printer Solutions; and (d) the link is in the context of general resource information.',
           'These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.',
-          'If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to EzTech PrinterSolutions. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.',
+          'If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Ez Tech Printer Solutions. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.',
           'Approved organizations may hyperlink to our Website as follows:',
           'By use of our corporate name; or',
           'By use of the uniform resource locator being linked to; or',
           'By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.',
-          'No use of EzTech PrinterSolutions’s logo or other artwork will be allowed for linking absent a trademark license agreement.',
+          'No use of Ez Tech Printer Solutions’s logo or other artwork will be allowed for linking absent a trademark license agreement.',
         ],
       },
     ],

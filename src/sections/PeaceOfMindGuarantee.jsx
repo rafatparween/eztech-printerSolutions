@@ -15,7 +15,7 @@ const PeaceOfMindGuarantee = () => {
             Peace of Mind Guarantee
           </h2>
           <p className="text-lg mb-4">
-            At EzTech PrinterSolutions, we ensure you feel confident and secure
+            At Ez Tech Printer Solutions, we ensure you feel confident and secure
             in your purchase. Our Peace of Mind Guarantee covers comprehensive
             testing, warranty coverage, and satisfaction guaranteed.
           </p>
