@@ -35,7 +35,7 @@ export default function Membership() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8 py-10 ">
           <div className="mx-auto max-w-2xl sm:text-center mt-20">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              In a Ez Tech Printer Solutions, technology just works
+              In a Micro Sonic Repair , technology just works
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
               The support you need for any smart home device, all in one
@@ -103,7 +103,7 @@ export default function Membership() {
                   <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-100 lg:flex lg:flex-col lg:justify-center lg:py-16">
                     <div className="mx-auto max-w-xs px-8">
                       <p className="text-base font-semibold text-gray-600">
-                        HelloTech Home
+                        Ez Tech
                       </p>
                       <p className="mt-6 flex items-baseline justify-center gap-x-2">
                         <span className="text-5xl font-bold tracking-tight text-gray-900">
@@ -129,7 +129,7 @@ export default function Membership() {
                   <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-100 lg:flex lg:flex-col lg:justify-center lg:py-16">
                     <div className="mx-auto max-w-xs px-8">
                       <p className="text-base font-semibold text-gray-600">
-                        HelloTech Lite
+                        Ez Tech
                       </p>
                       <p className="mt-6 flex items-baseline justify-center gap-x-2">
                         <span className="text-5xl font-bold tracking-tight text-gray-900">
@@ -158,7 +158,7 @@ export default function Membership() {
                   <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-100 lg:flex lg:flex-col lg:justify-center lg:py-16">
                     <div className="mx-auto max-w-xs px-8">
                       <p className="text-base font-semibold text-gray-600">
-                        HelloTech Home
+                         Ez Tech
                       </p>
                       <p className="mt-6 flex items-baseline justify-center gap-x-2">
                         <span className="text-5xl font-bold tracking-tight text-gray-900">
@@ -184,7 +184,7 @@ export default function Membership() {
                   <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-100 lg:flex lg:flex-col lg:justify-center lg:py-16">
                     <div className="mx-auto max-w-xs px-8">
                       <p className="text-base font-semibold text-gray-600">
-                        HelloTech Lite
+                         Ez Tech
                       </p>
                       <p className="mt-6 flex items-baseline justify-center gap-x-2">
                         <span className="text-5xl font-bold tracking-tight text-gray-900">

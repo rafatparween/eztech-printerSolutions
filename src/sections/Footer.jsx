@@ -69,10 +69,10 @@ const Footer = () => {
             <p>89 Woodland Center, USA</p>
             <p>
               <a
-                href="mailto:support@eztechprintersolutions.com"
+                href="mailto:support@microsonicrepair.com"
                 className="hover:text-teal-200"
               >
-                support@eztechprintersolutions.com
+                support@microsonicrepair.com
               </a>
             </p>
           </div>
@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center text-gray-100 mt-8">
-          &copy; {new Date().getFullYear()} Ez Tech Printer Solutions. All rights
+          &copy; {new Date().getFullYear()}  Micro Sonic Repair . All rights
           reserved.
         </div>
       </div>

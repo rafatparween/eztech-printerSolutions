@@ -3,12 +3,12 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
 const faqs = [
   {
-    question: 'What services does Ez Tech Printer Solutions offer?',
+    question: 'What services does  Micro Sonic Repair  offer?',
     answer:
-      'Ez Tech Printer Solutions offers a wide range of services including printer setup, troubleshooting, repair, and maintenance for all types of printers.',
+      'Micro Sonic Repair offers a wide range of services including printer setup, troubleshooting, repair, and maintenance for all types of printers.',
   },
   {
-    question: 'Can Ez Tech Printer Solutions help with wireless printer setup?',
+    question: 'Can Micro Sonic Repair help with wireless printer setup?',
     answer:
       'Yes, our technicians are experts in setting up wireless printers. We can help you connect your printer to your Wi-Fi network and ensure it is working properly.',
   },
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     question:
-      'How much does Ez Tech Printer Solutions charge for a service call?',
+      'How much does Micro Sonic Repair charge for a service call?',
     answer:
       'Our service charges vary depending on the type of service required. Basic printer setup starts at $79, while more complex troubleshooting and repair services may have additional charges. We also offer membership pricing for regular customers.',
   },

@@ -5,7 +5,7 @@ const content = [
     id: 2,
     title: 'Who We Are',
     content:
-      'At Ez Tech Printer Solutions, we specialize in selling refurbished printers that meet the highest standards of performance and quality. Our team of experts meticulously inspects, repairs, and tests each printer to ensure it operates like new. Our commitment to excellence ensures you receive exceptional value without compromising on quality.',
+      'At Micro Sonic Repair , we specialize in selling refurbished printers that meet the highest standards of performance and quality. Our team of experts meticulously inspects, repairs, and tests each printer to ensure it operates like new. Our commitment to excellence ensures you receive exceptional value without compromising on quality.',
   },
   {
     id: 3,
@@ -29,13 +29,13 @@ const content = [
     id: 6,
     title: 'Our Commitment',
     content:
-      'At Ez Tech Printer Solutions, we are more than just a printer supplier. We are your partners in achieving efficient and eco-friendly printing solutions. Our commitment to quality, affordability, and sustainability drives everything we do. We strive to exceed your expectations and provide you with the best possible experience.',
+      'At Micro Sonic Repair , we are more than just a printer supplier. We are your partners in achieving efficient and eco-friendly printing solutions. Our commitment to quality, affordability, and sustainability drives everything we do. We strive to exceed your expectations and provide you with the best possible experience.',
   },
   {
     id: 7,
     title: '',
     content:
-      'Thank you for choosing Ez Tech Printer Solutions. We look forward to helping you find the perfect printer that meets your needs and exceeds your expectations.',
+      'Thank you for choosing Micro Sonic Repair . We look forward to helping you find the perfect printer that meets your needs and exceeds your expectations.',
   },
 ];
 
@@ -45,7 +45,7 @@ const About = () => {
     <div className="bg-teal-50 py-10">
       <div className="container mx-auto px-4 mt-20 bg-gray-100  shadow-inner p-3">
         <h1 className="text-[#0f766e] text-3xl font-bold  text-center p-3">
-          Welcome to Ez Tech Printer Solutions!
+          Welcome to Micro Sonic Repair !
         </h1>
         <section>
           {content.map((section) => (

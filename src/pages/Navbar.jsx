@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-2xl font-bold text-[#0f766e]">
-            Ez Tech Printer Solutions
+            Micro Sonic Repair 
             </Link>
           </div>
           <div className="hidden lg:flex lg:items-center lg:space-x-8">

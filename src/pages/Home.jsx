@@ -14,7 +14,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-4">
               <h1 className="text-4xl font-bold text-[#0f766e] mb-4">
-                Welcome to Ez Tech Printer Solutions!{' '}
+                Welcome to Micro Sonic Repair !{' '}
               </h1>
               <p className="text-gray-700 text-lg mb-4">
                 Welcome to our independent third-party company specializing in
