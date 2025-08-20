@@ -6,7 +6,7 @@ const PeaceOfMindGuarantee = () => {
     <main className="bg-teal-50 flex items-center justify-center py-10">
       <div className="bg-white p-8 rounded-lg w-11/12 max-w-6xl mx-auto flex flex-col md:flex-row items-center shadow-xl">
         <img
-          src="https://media.licdn.com/dms/image/C5612AQHeqVyqoS54yQ/article-cover_image-shrink_720_1280/0/1593932828952?e=1724284800&v=beta&t=wkWLfULUr84JhYAx_BH5KAfeKHFvfM_2SIi4KBamMoc"
+          src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmVzc2lvbmFsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D"
           alt="Peace of Mind"
           className="rounded-lg shadow-xl mb-6 md:mb-0 md:mr-8 w-full md:w-1/2 h-[85vh] object-cover"
         />
@@ -56,3 +56,5 @@ const PeaceOfMindGuarantee = () => {
 };
 
 export default PeaceOfMindGuarantee;
+
+
