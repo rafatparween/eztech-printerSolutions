@@ -92,9 +92,9 @@ const About = () => {
         </div>
         
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Welcome to Micro Sonic Solutions</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Welcome to Micro Sonic Repair</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            At Micro Sonic, we specialize in refurbished printers that meet the highest standards of quality and performance.
+            At Micro Sonic Repair, we specialize in refurbished printers that meet the highest standards of quality and performance.
           </p>
         </div>
       </header>
@@ -305,7 +305,7 @@ const About = () => {
         </section>
 
         {/* Subscription Policy Section */}
-        <section className="mb-20">
+        {/* <section className="mb-20">
           <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-6 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-teal-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -439,17 +439,17 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Commitment Section */}
         <section className="mb-20">
           <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-2xl p-10 text-white text-center">
             <h2 className="text-3xl font-bold mb-6">Our Commitment</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              We are more than just a printer supplier — we are your partners in providing affordable, eco-friendly printing solutions. Our commitment to quality, transparency, and sustainability drives everything we do. By choosing Micro Sonic, you not only receive reliable technology but also contribute to reducing e-waste and supporting a greener planet.
+              We are more than just a printer supplier — we are your partners in providing affordable, eco-friendly printing solutions. Our commitment to quality, transparency, and sustainability drives everything we do. By choosing Micro Sonic Repair, you not only receive reliable technology but also contribute to reducing e-waste and supporting a greener planet.
             </p>
             <p className="text-xl font-semibold">
-              Thank you for choosing Micro Sonic Solutions. We look forward to serving you with reliable products, clear policies, and complete peace of mind.
+              Thank you for choosing Micro Sonic Repair. We look forward to serving you with reliable products, clear policies, and complete peace of mind.
             </p>
           </div>
         </section>
