@@ -19,12 +19,14 @@ import PrinterProductList from './pages/product/ProductsListing';
 import ProductDetail from './pages/product/ProductDetail';
 import Cart from './pages/product/Cart';
 import CartProvider from './pages/product/CartContext';
+import JivoChat from './JivoChat';
 
 const App = () => {
   return (
     <Router>
       <CartProvider>
         <Navbar />
+        <JivoChat/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
