@@ -66,13 +66,13 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">Get in Touch</h3>
             <p>+(1) 888-291-3869</p>
-            <p>89 Woodland Center, USA</p>
+            <p>Los Angles, California United states </p>
             <p>
               <a
                 href="mailto:support@microsonicrepair.com"
                 className="hover:text-teal-200"
               >
-                support@microsonicrepair.com
+                support@microhubcare.com
               </a>
             </p>
           </div>
@@ -96,7 +96,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center text-gray-100 mt-8">
-          &copy; {new Date().getFullYear()}  Micro Sonic Repair . All rights
+          &copy; {new Date().getFullYear()} Micro Hub Care
+ . All rights
           reserved.
         </div>
       </div>

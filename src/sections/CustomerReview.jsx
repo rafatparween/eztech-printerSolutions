@@ -57,7 +57,7 @@ const CustomerReview = () => {
     {
       name: 'Michael Johnson',
       date: 'June 10, 2024',
-      content: 'I recently purchased a refurbished laser printer from Micro Sonic Repair and I couldn’t be happier. The printer works flawlessly and the print quality is just like new. The customer service was also very helpful in answering my queries. Highly recommend!',
+      content: 'I recently purchased a refurbished laser printer from Micro Hub Care and I couldn’t be happier. The printer works flawlessly and the print quality is just like new. The customer service was also very helpful in answering my queries. Highly recommend!',
       rating: 5,
       avatar: 'MJ',
       product: 'Laser Printer X200'
@@ -65,7 +65,7 @@ const CustomerReview = () => {
     {
       name: 'Lisa Brown',
       date: 'May 28, 2024',
-      content: 'Micro Sonic Repair has exceeded my expectations. The refurbished inkjet printer I bought was in excellent condition and the price was unbeatable. Their team provided great support throughout the purchase process.',
+      content: 'Micro Hub Care has exceeded my expectations. The refurbished inkjet printer I bought was in excellent condition and the price was unbeatable. Their team provided great support throughout the purchase process.',
       rating: 4,
       avatar: 'LB',
       product: 'Inkjet Pro 450'
@@ -73,7 +73,7 @@ const CustomerReview = () => {
     {
       name: 'David Wilson',
       date: 'April 15, 2024',
-      content: 'The multifunction printer I got from Micro Sonic Repair is a great deal. It looks and functions like new. I’m impressed with their quality control and attention to detail. Would definitely buy from them again.',
+      content: 'The multifunction printer I got from Micro Hub Care is a great deal. It looks and functions like new. I’m impressed with their quality control and attention to detail. Would definitely buy from them again.',
       rating: 5,
       avatar: 'DW',
       product: 'Multifunction Elite'

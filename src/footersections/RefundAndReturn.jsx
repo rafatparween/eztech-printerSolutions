@@ -1,6 +1,6 @@
 const returnRefundPolicyContent = [
   {
-    sectionTitle: 'Thank you for shopping at  Micro Sonic Repair ',
+    sectionTitle: 'Thank you for shopping at Micro Hub Care ',
     content: [
       'If, for any reason, You are not completely satisfied with a purchase, We invite You to review our policy on refunds and returns.',
       'The following terms are applicable for any products that You purchased with Us.',
@@ -19,11 +19,11 @@ const returnRefundPolicyContent = [
         subTitle: 'Definitions',
         content: [
           'For the purposes of this Return and Refund Policy:',
-          'Company (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to Micro Sonic Repair.',
+          'Company (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to Micro Hub Care.',
           'Goods refer to the items offered for sale on the Service.',
           'Orders mean a request by You to purchase Goods from Us.',
           'Service refers to the Website.',
-          'Website refers to Micro Sonic Repair , accessible from https://microsonicrepair.com/',
+          'Website refers to Micro Hub Care, accessible from https://microhubcare.com/',
           'You means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.',
         ],
       },

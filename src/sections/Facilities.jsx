@@ -153,7 +153,8 @@ const Facilities = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-teal-900 mb-4">
-              Everything You Get With Micro Sonic Repair
+              Everything You Get With Micro Hub Care
+
             </h2>
             <p className="text-xl text-teal-700 max-w-3xl mx-auto">
               Comprehensive tech support solutions designed to keep your devices running smoothly
