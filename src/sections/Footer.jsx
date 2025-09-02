@@ -262,7 +262,7 @@ const Footer = () => {
         
         {/* Copyright section */}
         <div className="text-center pt-8 border-t border-[#1C8DCEED]">
-          <p className="text-[#1C8DCEED]">
+          <p className="text-white">
             &copy; {new Date().getFullYear()} Micro Hub Care. All rights reserved.
           </p>
           {/* <div className="flex justify-center space-x-6 mt-4 text-sm text-teal-300">
