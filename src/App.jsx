@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './pages/Navbar';
+// import Navbar from './pages/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Footer from './sections/Footer';
@@ -25,7 +25,7 @@ const App = () => {
   return (
     <Router>
       <CartProvider>
-        <Navbar />
+        {/* <Navbar /> */}
         <JivoChat/>
         <Routes>
           <Route path="/" element={<Home />} />
