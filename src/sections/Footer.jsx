@@ -115,7 +115,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1C8DCEED] text-gray-100 py-12 relative overflow-hidden">
+    <footer className="bg-[#1C8DCEED] text-gray-100 py-12 relative overflow-hidden mt-[90px]">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-[#1C8DCEED]"></div>
       <div className="absolute -bottom-20 -right-20 w-40 h-40 rounded-full bg-teal-800 opacity-20"></div>
