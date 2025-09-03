@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Footer from './sections/Footer';
 import About from './pages/About';
 import Services from './pages/service/Servies';
-import PrinterSetupPage from './pages/service/PrinterSetupPage';
+
 import ComputerSetupPage from './pages/service/ComputerSetupPage';
 import PrinterFormPage from './pages/service/PrinterFormPage';
 import ComputerFormPage from './pages/service/ComputerFormPage';
@@ -20,18 +20,27 @@ import ProductDetail from './pages/product/ProductDetail';
 import Cart from './pages/product/Cart';
 import CartProvider from './pages/product/CartContext';
 import JivoChat from './JivoChat';
+import Printeroffline from './footersections/Printeroffline';
+import Printerssetup from './footersections/Printerssetup';
+import Supporthome from './footersections/Supporthome';
+import Scannersetup from './footersections/Scannersetup';
+import Inkissue from './footersections/Inkissue';
+import Diagnostics from './footersections/Diagnostics';
+import BusinessSupport from './footersections/Businesssupport';
+
+// import Header from './pages/Header';
 
 const App = () => {
   return (
     <Router>
       <CartProvider>
         {/* <Navbar /> */}
+        {/* <Header/> */}
         <JivoChat/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Services />} />
-          <Route path="/printersetup" element={<PrinterSetupPage />} />
           <Route path="/computersetup" element={<ComputerSetupPage />} />
           <Route path="/printerformPage" element={<PrinterFormPage />} />
           <Route path="/computerFormPage" element={<ComputerFormPage />} />
@@ -46,6 +55,13 @@ const App = () => {
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/return-refundpolicy" element={<ReturnRefundPolicy />} />
           <Route path="/terms-conditions" element={<TermsAndConditions />} />
+          <Route path="/printeroffline" element={<Printeroffline />} />
+          <Route path="/printerssetup" element={<Printerssetup />} />
+          <Route path="/supporthome" element={<Supporthome />} />
+          <Route path="/scannersetup" element={<Scannersetup />} />
+          <Route path='/inkissue' element={<Inkissue />} />
+          <Route path='/diagnostics' element={<Diagnostics />} />
+          <Route path='/businesssupport' element={<BusinessSupport />} />
         </Routes>
 
         <Footer />

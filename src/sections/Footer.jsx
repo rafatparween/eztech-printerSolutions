@@ -161,6 +161,11 @@ const Footer = () => {
                   <span className="mr-2">→</span> Contact
                 </Link>
               </li>
+              <li>
+                <Link to="/membership" className="hover:text-teal-200 transition-colors duration-300 flex items-center">
+                  <span className="mr-2">→</span> Membership
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -218,16 +223,16 @@ const Footer = () => {
             
             {/* Social Media Icons */}
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-teal-600 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-gray-300 transition-colors duration-300">
                 <span className="text-white">ƒ</span>
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-teal-600 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-gray-300 transition-colors duration-300">
                 <span className="text-white">𝕏</span>
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-teal-600 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-gray-300 transition-colors duration-300">
                 <span className="text-white">in</span>
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-teal-600 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#1C8DCEED] flex items-center justify-center hover:bg-gray-300 transition-colors duration-300">
                 <span className="text-white">ɪɢ</span>
               </a>
             </div>

@@ -101,6 +101,7 @@ import {
   Scanner, InstallDesktop, Troubleshoot,
   ConnectWithoutContact, DesignServices
 } from '@mui/icons-material';
+import Header from '../Header';
 
 const Services = () => {
   const [activeService, setActiveService] = useState('installation');
@@ -142,6 +143,9 @@ const Services = () => {
   }, [currentText, isDeleting, currentTextIndex, texts, typingSpeed]);
 
   return (
+    <>
+    <Header/>
+   
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 mt-[50px]">
       {/* Hero Section with Typing Animation */}
       <header className="relative bg-[#1C8DCEED] text-white pt-32 pb-28 overflow-hidden">
@@ -167,6 +171,7 @@ const Services = () => {
           </div>
         </div>
       </header>
+
 
       {/* Service Navigation */}
       <div className="container mx-auto px-4 -mt-8 relative z-20">
@@ -217,6 +222,69 @@ const Services = () => {
           </button>
         </div>
       </div>
+
+
+  <section className="bg-white rounded-2xl shadow-lg p-10 mb-20 mt-[90px]">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-800 mb-3">We're Here to Help</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">Our support team is available during business hours</p>
+          </div>
+          
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="flex-1">
+              <div className="flex items-center mb-8">
+                <div className="bg-[#1C8DCEED] p-3 rounded-xl mr-4">
+                  <SupportAgent className="text-white text-3xl" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-800">Professional Support Team</h3>
+              </div>
+              <p className="text-gray-700 mb-8 text-lg">
+                Get expert support during business hours. Connect with us online or by phone for immediate assistance!
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex items-center p-5 bg-gray-50 rounded-xl">
+                  <Phone className="text-[#1C8DCEED] mr-4 text-2xl" />
+                  <div>
+                    <p className="font-semibold text-gray-800">Call Us</p>
+                    <p className="text-gray-600">808-468-1018</p>
+                  </div>
+                </div>
+                <div className="flex items-center p-5 bg-gray-50 rounded-xl">
+                  <Chat className="text-[#1C8DCEED] mr-4 text-2xl" />
+                  <div>
+                    <p className="font-semibold text-gray-800">Live Chat</p>
+                    <p className="text-gray-600">Available during business hours</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="flex-1">
+              <img
+                className="w-full h-auto rounded-2xl shadow-md"
+                src="https://plus.unsplash.com/premium_photo-1705091310225-c5af0c6d64b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByaW50ZXIlMjBzZXR1cCUyMHdpZGUlMjB3aWR0aHxlbnwwfHwwfHx8MA%3D%3D"
+                alt="Support team"
+              />
+            </div>
+          </div>
+        </section>
+
+
+          <section className="bg-[#1C8DCEED] rounded-2xl p-10 text-center text-white">
+          <h2 className="text-3xl font-bold mb-4">Ready to Get Your Printer Working?</h2>
+          <p className="text-xl mb-8 max-w-2xl mx-auto">Our team of printer experts is ready to help you with all your printing needs</p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <button className="bg-white text-[#1C8DCEED] font-semibold py-3 px-8 rounded-lg flex items-center justify-center hover:bg-gray-100 transition-colors">
+              <Chat className="mr-2" />
+              Chat with an Expert
+            </button>
+            <button className="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white/10 transition-colors">
+              Schedule a Service
+            </button>
+          </div>
+        </section>
+
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-16">
@@ -402,66 +470,10 @@ const Services = () => {
         </section>
 
         {/* Support Section */}
-        <section className="bg-white rounded-2xl shadow-lg p-10 mb-20">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-3">We're Here to Help</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Our support team is available during business hours</p>
-          </div>
-          
-          <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="flex-1">
-              <div className="flex items-center mb-8">
-                <div className="bg-[#1C8DCEED] p-3 rounded-xl mr-4">
-                  <SupportAgent className="text-white text-3xl" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-800">Professional Support Team</h3>
-              </div>
-              <p className="text-gray-700 mb-8 text-lg">
-                Get expert support during business hours. Connect with us online or by phone for immediate assistance!
-              </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="flex items-center p-5 bg-gray-50 rounded-xl">
-                  <Phone className="text-[#1C8DCEED] mr-4 text-2xl" />
-                  <div>
-                    <p className="font-semibold text-gray-800">Call Us</p>
-                    <p className="text-gray-600">808-468-1018</p>
-                  </div>
-                </div>
-                <div className="flex items-center p-5 bg-gray-50 rounded-xl">
-                  <Chat className="text-[#1C8DCEED] mr-4 text-2xl" />
-                  <div>
-                    <p className="font-semibold text-gray-800">Live Chat</p>
-                    <p className="text-gray-600">Available during business hours</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="flex-1">
-              <img
-                className="w-full h-auto rounded-2xl shadow-md"
-                src="https://plus.unsplash.com/premium_photo-1705091310225-c5af0c6d64b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByaW50ZXIlMjBzZXR1cCUyMHdpZGUlMjB3aWR0aHxlbnwwfHwwfHx8MA%3D%3D"
-                alt="Support team"
-              />
-            </div>
-          </div>
-        </section>
+      
 
         {/* CTA Section */}
-        <section className="bg-[#1C8DCEED] rounded-2xl p-10 text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Ready to Get Your Printer Working?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">Our team of printer experts is ready to help you with all your printing needs</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-[#1C8DCEED] font-semibold py-3 px-8 rounded-lg flex items-center justify-center hover:bg-gray-100 transition-colors">
-              <Chat className="mr-2" />
-              Chat with an Expert
-            </button>
-            <button className="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white/10 transition-colors">
-              Schedule a Service
-            </button>
-          </div>
-        </section>
+      
       </main>
 
       <style jsx>{`
@@ -481,6 +493,7 @@ const Services = () => {
         }
       `}</style>
     </div>
+     </>
   );
 };
 
