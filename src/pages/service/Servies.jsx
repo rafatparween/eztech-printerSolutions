@@ -102,6 +102,10 @@ import {
   ConnectWithoutContact, DesignServices
 } from '@mui/icons-material';
 import Header from '../Header';
+import Logonav from '../../sections/Logonav';
+import Banner from '../../sections/Banner';
+import Drivers from '../../sections/Drivers';
+import Dignode from '../../sections/Dignode';
 
 const Services = () => {
   const [activeService, setActiveService] = useState('installation');
@@ -144,11 +148,15 @@ const Services = () => {
 
   return (
     <>
-    <Header/>
-   
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 mt-[50px]">
-      {/* Hero Section with Typing Animation */}
-      <header className="relative bg-[#1C8DCEED] text-white pt-32 pb-28 overflow-hidden">
+      <Logonav />
+      <Header />
+      <Banner/>
+      <Drivers/>
+     
+
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 ">
+        {/* Hero Section with Typing Animation */}
+      {/* <header className="relative bg-[#1C8DCEED] text-white pt-32 pb-28 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-black opacity-20"></div>
           <div 
@@ -170,11 +178,11 @@ const Services = () => {
             <span>Professional Support During Business Hours</span>
           </div>
         </div>
-      </header>
+      </header> */}
 
 
       {/* Service Navigation */}
-      <div className="container mx-auto px-4 -mt-8 relative z-20">
+      {/* <div className="container mx-auto px-4 -mt-8 relative z-20">
         <div className="bg-white rounded-xl shadow-lg p-2 flex flex-wrap justify-center max-w-4xl mx-auto">
           <button
             className={`flex items-center px-6 py-4 rounded-xl transition-all duration-300 m-1 ${
@@ -221,7 +229,7 @@ const Services = () => {
             <span className="font-medium">Optimization</span>
           </button>
         </div>
-      </div>
+      </div> */}
 
 
   <section className="bg-white rounded-2xl shadow-lg p-10 mb-20 mt-[90px]">
@@ -284,6 +292,8 @@ const Services = () => {
             </button>
           </div>
         </section>
+
+         <Dignode/>
 
 
       {/* Main Content */}
